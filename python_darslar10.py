@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Spyder Editor
+Shahkbozbek.
+Python darslari
 
 This is a temporary script file.
 """
@@ -11,24 +13,23 @@ This is a temporary script file.
  #ahsulotlar ro'yxati bilan solishtiring va qaysi biri ro'yxatda bo'lsa
  #chiqaring.
 
-#mahsulotlar = ["olma", "olma", "behi", "sabzi", "gosh", "non", "kartoshka",]
+mahsulotlar = ["olma", "olma", "behi", "sabzi", "gosh", "non", "kartoshka",]
 
-#savat = []
+savat = []  
+for n in range(5):
+  savat.append(input(f'Savatga {n+1} mahsulotni qo\'shing>'))
   
-#for n in range(5):
-#  savat.append(input(f'Savatga {n+1} mahsulotni qo\'shing>'))
-  
-#for mahsulot in savat:
-    #if mahsulot in mahsulotlar:
-     #   print(f"Do'konimizda {mahsulot} bor")
-    #else:
-     #   print(f"Do'konimizda {mahsulot} yo'q")
-#user = ['salim','halim','karim','botir']
-#login = input("Login tanlang>>>")
-#if login in user:
- #    print("Kechirasiz bu login band!")
-#else:
-   # print(f"Hush kelibsiz  {login.title()} !") son = input("Ikkita soni kiriting>>>")
+for mahsulot in savat:
+if mahsulot in mahsulotlar:
+   print(f"Do'konimizda {mahsulot} bor")
+else:
+        print(f"Do'konimizda {mahsulot} yo'q")
+user = ['salim','halim','karim','botir']
+login = input("Login tanlang>>>")
+if login in user:
+     print("Kechirasiz bu login band!")
+else:
+   print(f"Hush kelibsiz  {login.title()} !") son = input("Ikkita soni kiriting>>>")
 
 
 son = int(input("Istalgan butun son kiriting: "))
